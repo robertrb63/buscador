@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "nombre": "Roberto",
+        "telefono": "123456789",
+        "email": "restrepo.roberto@mail.com",
+        "parroquia": "Graus",
+        "grupoParroquial": "Grupo X",
+        "UnidadPastoral": "Unidad Y",
+        "moderador": "Moderador Z",
+        "telModerador": "987654321",
+        "arciprestazgo": "Arciprestazgo W",
+        "telArciprestazgo": "123123123",
+        "animador": "Animador V",
+        "telAnimador": "321321321"
+    },
+    {
+        "id": 2,
+        "nombre": "Roberto",
+        "telefono": "123456789",
+        "email": "ejemplo2@mail.com",
+        "parroquia": "Sopeira",
+        "grupoParroquial": "Grupo X",
+        "UnidadPastoral": "Unidad Y",
+        "moderador": "Moderador Z",
+        "telModerador": "987654321",
+        "arciprestazgo": "Arciprestazgo W",
+        "telArciprestazgo": "123123123",
+        "animador": "Animador V",
+        "telAnimador": "321321321"
+    },
+    {
+        "id": 3,
+        "nombre": "Roberto",
+        "telefono": "123456789",
+        "email": "ejemplo3@mail.com",
+        "parroquia": "Puente de Montanana",
+        "grupoParroquial": "Grupo X",
+        "UnidadPastoral": "Unidad Y",
+        "moderador": "Moderador Z",
+        "telModerador": "987654321",
+        "arciprestazgo": "Arciprestazgo W",
+        "telArciprestazgo": "123123123",
+        "animador": "Animador V",
+        "telAnimador": "321321321"
+    }
+]
