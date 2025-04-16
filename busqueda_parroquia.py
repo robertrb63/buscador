@@ -5,8 +5,7 @@ import pandas as pd
 # Configuración de la página
 st.set_page_config(page_title="Búsqueda y Gestión de Parroquias", layout="wide")
 st.markdown(
-    """
-    <style>
+   <style>
     .main {
         background-color: #e6f3fa;
         padding: 20px;
@@ -34,8 +33,7 @@ st.markdown(
         width: 100%;
         overflow-x: auto;
     }
-    </style>
-    """,
+    </style>,
     unsafe_allow_html=True
 )
 
