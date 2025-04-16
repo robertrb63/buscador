@@ -5,7 +5,8 @@ import pandas as pd
 # Configuración de la página
 st.set_page_config(page_title="Búsqueda y Gestión de Parroquias", layout="wide")
 st.markdown(
-   <style>
+    """
+    <style>
     .main {
         background-color: #e6f3fa;
         padding: 20px;
@@ -33,7 +34,8 @@ st.markdown(
         width: 100%;
         overflow-x: auto;
     }
-    </style>,
+    </style>
+    """,
     unsafe_allow_html=True
 )
 
@@ -152,7 +154,7 @@ if resultados:
             "moderador": st.column_config.TextColumn("Moderador", width="medium"),
             "telModerador": st.column_config.TextColumn("Tel. Moderador", width="medium"),
             "arciprestazgo": st.column_config.TextColumn("Arciprestazgo", width="medium"),
-            "arcipreste": st.column_config.TextColumn("Moderador", width="medium"),
+            "arcipreste": st.column_config.TextColumn("Arcipreste", width="medium"),
             "telArciprestazgo": st.column_config.TextColumn("Tel. Arciprestazgo", width="medium"),
             "animador": st.column_config.TextColumn("Animador", width="medium"),
             "telAnimador": st.column_config.TextColumn("Tel. Animador", width="medium"),
